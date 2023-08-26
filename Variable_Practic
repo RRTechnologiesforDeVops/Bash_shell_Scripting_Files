@@ -1,0 +1,17 @@
+#!/bin/bash
+
+student="Ramadevi"
+echo "Hello ${student}"
+
+---------------------------------------------------------------------------
+
+#!/bin/bash
+
+employee="Ramadevi"
+echo "Dear ${employee}"
+echo "The board and i would like to thank you for the excellent work that you have been doing over the last few montns."
+echo "Keep up the good work, ${employee}"
+
+echo "Best wishes"
+echo "Reddysekhar"
+echo "ECO | RR Technologies."
