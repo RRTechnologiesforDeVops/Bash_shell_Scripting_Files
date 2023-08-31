@@ -1,4 +1,4 @@
 #!/bin/bash
 
-time=${date +%H:%M:%S)
+time=$(date +%H:%M:%S)
 echo "Hello ${user}, the time right now is $time"
