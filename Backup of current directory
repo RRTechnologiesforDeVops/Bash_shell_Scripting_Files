@@ -8,15 +8,14 @@
 # Creates a backup in the current directory of
 # all files in the home directory
 
-echo "Hello there, ${USER^}"
+
+name="ReddySekhar"
+
+echo "Hello there, ${name}"
 echo "I will now back up your home directory, $HOME"
-
 currentdir=$(pwd)
-
 echo "I will create save the backup file in $currentdir"
-
-tar -cf "$currentdir/my_backup_$(date +%d-%m-%Y_%H-%M-%S).tar" $HOME 2>/dev/null
-
-echo "Backup completed successfully"
+tar -cf  "$currentdir/my-backup_$(date +"%Y-%m-%d %H:%M:%S").tar" $HOME 2>/dev/null
+echo "Backup Completed Sucessfully."
 
 exit 0
